@@ -1,0 +1,27 @@
+{
+    "jobs": "Work experience",
+    "educations": "Educations",
+    "workexperience": [
+        {
+            "title": "Ordningsvakt",
+            "company": "Avarn Secerity",
+            "decs": "Jag jobbar främst i köpcentrum där jag ansvarar för samtliga larm som går i köpcentrumet. Jag har också hand om utlåning av accesskort och nycklar till fasigheten. Jag jobbar även hos socialtjänst som ordningsvakt och receptionist och har då hand om bland annat ordningen men också att besökarna hänvisas till rätt avdelning och personal."
+
+        },
+        {
+            "title":"Ordningsvakt",
+            "company":"Zafe bevakning",
+            "decs":"Jag jobbar som krog vakt och min huvudsakliga arbetsuppgift är att skapa samt bibehålla en trygg och trevlig stämning för både personalen och krogbesökarna. Jag arbetade med allt från att legitimera gäster, avisa och avlägsna gäster till att besvara gästernas frågor."
+        }
+    ],
+
+    "education": [
+        {
+            "title":"Barn & Fritidsprogrammet 2012-2015",
+            "company":"didaktus liljeholmen",
+            "decs":"Du får lära dig att bidra till livskvalitet och välmående. Du får också kunskap om hur andra människor lär sig saker och hur de växer och utvecklas. Du får också lära dig om samarbete och kommunikation."
+
+        }
+    ]
+
+}
