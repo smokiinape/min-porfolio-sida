@@ -4,4 +4,7 @@ There is a menu that you can use to navigate with and check my social medias to 
 
 feel free to check the website and have a go.
 
+Aman 
+https://smokiinape.github.io/min-porfolio-sida/
+
 
