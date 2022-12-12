@@ -21,8 +21,8 @@ async function myResume() {
     const studying = document.createElement("div");
     works.classList = "working";
     studying.classList = "studying";
-    document.querySelector(".jobs").append(works);
-    document.querySelector(".educations").append(studying);
+    document.querySelector(".jobs")?.append(works);
+    document.querySelector(".educations")?.append(studying);
 
     // Names for my titels
     const workTitel = document.createElement("h3");
@@ -31,8 +31,8 @@ async function myResume() {
     studyingTitel.classList = "education-titel";
     workTitel.textContent = data.jobs;
     studyingTitel.textContent = data.educations;
-    document.querySelector(".working").append(workTitel);
-    document.querySelector(".studying").append(studyingTitel);
+    document.querySelector(".working")?.append(workTitel);
+    document.querySelector(".studying")?.append(studyingTitel);
 
     // text
 
@@ -40,8 +40,8 @@ async function myResume() {
     const educationTing = document.createElement("p");
     jobTing.classList = "job-ting";
     educationTing.classList = "education-ting";
-    document.querySelector(".working").append(jobTing);
-    document.querySelector(".studying").append(educationTing);
+    document.querySelector(".working")?.append(jobTing);
+    document.querySelector(".studying")?.append(educationTing);
     
 
 
@@ -53,9 +53,9 @@ async function myResume() {
             jobRole.classList = "jobRole";
             jobTitel.classList = "jobTitel";
             jobDesc.classList = "jobDesc";
-            document.querySelector(".job-ting").append(jobRole);
-            document.querySelector(".job-ting").append(jobTitel);
-            document.querySelector(".job-ting").append(jobDesc);
+            document.querySelector(".job-ting")?.append(jobRole);
+            document.querySelector(".job-ting")?.append(jobTitel);
+            document.querySelector(".job-ting")?.append(jobDesc);
             jobRole.innerHTML = data.workexperience[i].title + "<br><br>";
             jobTitel.innerHTML = data.workexperience[i].company + "<br>";
             jobDesc.innerHTML = data.workexperience[i].decs + "<br><br>";
@@ -72,9 +72,9 @@ async function myResume() {
           educationalRole.classList = "educationalRole";
           educationTitel.classList = "educationTitel";
           educationDesc.classList = "educationDesc";
-          document.querySelector(".education-ting").append(educationalRole);
-          document.querySelector(".education-ting").append(educationTitel);
-          document.querySelector(".education-ting").append(educationDesc);
+          document.querySelector(".education-ting")?.append(educationalRole);
+          document.querySelector(".education-ting")?.append(educationTitel);
+          document.querySelector(".education-ting")?.append(educationDesc);
           educationalRole.innerHTML = data.education[i].title + "<br>";
           educationTitel.innerHTML = data.education[i].company + "<br>";
           educationDesc.innerHTML = data.education[i].decs + "<br>";
